@@ -55,3 +55,7 @@ a {
     color: var(--color-primary);
     text-align: var(--section-header-align);
 }
+
+.section-header {
+    text-align: var(--section-header-align);
+}
