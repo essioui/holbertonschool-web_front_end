@@ -177,7 +177,7 @@ a:active {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--color-white);
+    color: var(--color-white);
     width: 0;
     height: 20%;
 }
@@ -185,6 +185,10 @@ a:active {
 .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 
 .nav .nav-link:hover {
